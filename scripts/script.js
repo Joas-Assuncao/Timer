@@ -1,15 +1,15 @@
 import { hour, minute, second, startButton, pauseButton, resetButton, speedButton, spam } from './constants.js';
 
 const speed = Number(prompt(`
-    Em qual velocidade você deseja que o timer rode?
-    1 = 1 em 1 segundo;
-    2 = 0.5 em 0.5 segundos;
+    what speed do you want your timer to run?
+    1 = 1 in 1 second;
+    2 = 0.5 in 0.5 seconds;
 `));
 
 if(isNaN(speed) || speed === 0) {
-    spam.innerText = `Seu timer está rodando em 1x`;
+    spam.innerText = `Your timer is running at 1x`;
 } else {
-    spam.innerText = `Seu timer está rodando em ${speed}x`;
+    spam.innerText = `Yout timer is running at ${speed}x`;
 }
 
 spam.classList.add('whatSecond');
