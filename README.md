@@ -26,7 +26,7 @@
 
 ![App Screenshot](./public/app-image.jpeg)
 <p align="center">
-  <a href="https://loving-goodall-0dc9b7.netlify.app/" target="_blank">
+  <a href="https://loving-goodall-0dc9b7.netlify.app/" target="blank">
     <img alt="Demo on Netlify" src="https://res.cloudinary.com/lukemorales/image/upload/v1599785319/readme_logos/demo_on_netlify_umjmch.png">
   </a>
 </p>
