@@ -9,7 +9,7 @@ const speed = Number(prompt(`
 if(isNaN(speed) || speed === 0) {
     spam.innerText = `Your timer is running at 1x`;
 } else {
-    spam.innerText = `Yout timer is running at ${speed}x`;
+    spam.innerText = `Your timer is running at ${speed}x`;
 }
 
 spam.classList.add('whatSecond');
