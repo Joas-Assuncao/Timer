@@ -1,0 +1,100 @@
+:root {
+    --font-color: #06303A;
+    --font-hover: #094f61;
+    --background-page: #023946;
+    --white-green: #C1F1F1;
+    --white: #FFF;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    outline: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+    padding: 1rem;
+
+    background: var(--background-page);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 40rem;
+    padding: 1rem 2rem;
+    gap: 20px;
+    border-radius: 1rem;
+
+    background: var(--white-green);
+    color: var(--font-color);
+    
+    font-size: 1.3rem;
+}
+
+section button {
+    height:3rem;
+    width: 100%;
+
+    background: var(--font-color);
+    color: var(--white);
+
+    font-size: 1.3rem;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 1.3rem;
+
+    transition: .3s;
+}
+
+section button:not(:first-of-type) {
+    margin-top: 1rem;
+}
+
+section button:hover {
+    background: var(--font-hover);
+
+    box-shadow: 0 0 10px var(--font-hover);
+}
+
+h1, h2, #start, #pause, #reset {
+    font-family: 'Roboto Mono', monospace;
+}
+
+section h1 {
+    font-size: 60px;
+    font-weight: 100;
+}
+
+.timer {
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+
+    border: 2px solid var(--background-page);
+    border-radius: 5px;
+}
+
+.timer label {
+    font-size: 60px;
+}
+
+.whatSecond {
+    padding: .625rem;
+    
+    background: var(--background-page);
+    color: white;
+
+    font-size: 1rem;
+    
+    border-radius: 1rem;
+}
